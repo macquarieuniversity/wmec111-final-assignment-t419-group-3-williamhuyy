@@ -8351,7 +8351,7 @@ GameObject:
   - component: {fileID: 671820525}
   - component: {fileID: 671820524}
   m_Layer: 0
-  m_Name: LightWall (1)
+  m_Name: LightWall 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8363,12 +8363,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 671820522}
-  m_LocalRotation: {x: 0.7038767, y: 0.0139302, z: -0.014042793, w: 0.7100468}
-  m_LocalPosition: {x: -8.73, y: 6.99, z: 1}
-  m_LocalScale: {x: 0.27831003, y: 1.1340008, z: 0.32098016}
+  m_LocalRotation: {x: 0.7038767, y: 0.0139302295, z: -0.014042763, w: 0.7100468}
+  m_LocalPosition: {x: 0.99968815, y: 6.9900007, z: 4.0604825}
+  m_LocalScale: {x: 0.27831018, y: 1.1340016, z: 0.32098034}
   m_Children: []
-  m_Father: {fileID: 1390323291}
-  m_RootOrder: 9
+  m_Father: {fileID: 889822847}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 89.50101, y: 0.08800001, z: -2.1790001}
 --- !u!108 &671820524
 Light:
@@ -17025,7 +17025,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -9.729691, y: 0, z: -3.060482}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1814071288}
+  - {fileID: 671820523}
   m_Father: {fileID: 1390323291}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29323,8 +29325,6 @@ Transform:
   - {fileID: 1822195106}
   - {fileID: 470251870}
   - {fileID: 1528833040}
-  - {fileID: 1814071288}
-  - {fileID: 671820523}
   - {fileID: 1882587533}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -30082,12 +30082,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1814071287}
-  m_LocalRotation: {x: 0.50300103, y: 0.49672037, z: -0.4925743, w: 0.5075721}
-  m_LocalPosition: {x: 4.265575, y: 6.024, z: -11.3391}
-  m_LocalScale: {x: 0.2783103, y: 1.1340007, z: 0.32097703}
+  m_LocalRotation: {x: 0.503001, y: 0.49672037, z: -0.49257427, w: 0.5075722}
+  m_LocalPosition: {x: 13.995266, y: 6.024001, z: -8.27862}
+  m_LocalScale: {x: 0.2783104, y: 1.1340014, z: 0.32097715}
   m_Children: []
-  m_Father: {fileID: 1390323291}
-  m_RootOrder: 8
+  m_Father: {fileID: 889822847}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 89.50001, y: -2.285, z: -2.1820002}
 --- !u!108 &1814071289
 Light:
@@ -35295,7 +35295,7 @@ Transform:
   m_LocalScale: {x: 3, y: 2, z: 3}
   m_Children: []
   m_Father: {fileID: 1390323291}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1917247907
 Mesh:
