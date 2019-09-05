@@ -4393,7 +4393,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 0.11320752, g: 0.10733354, b: 0.10733354, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -31549,7 +31549,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 0.8207547, g: 0.77978164, b: 0.5149074, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -31583,13 +31583,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1435064409}
-  m_LocalRotation: {x: 0.6273901, y: -0.21487226, z: -0.15248686, w: 0.73277515}
+  m_LocalRotation: {x: -0.68757653, y: 0.20109014, z: 0.17024994, w: -0.67662126}
   m_LocalPosition: {x: 35.5, y: 39.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 58.643, y: -76.619, z: -71.367004}
+  m_LocalEulerAnglesHint: {x: 59.540005, y: -92.985, z: -450.39502}
 --- !u!1 &1450108352
 GameObject:
   m_ObjectHideFlags: 0
